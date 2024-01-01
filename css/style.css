@@ -148,10 +148,10 @@ section {
   display: none;
 }
 
-.header .h1 {
+.header h1 {
  color: #99ff20;
   font-size: 6vw;
-  margin-bottom: -2.5vw;
+  margin-bottom: -0.5vw;
 }
 
 .header .search-form.active {
