@@ -148,7 +148,7 @@ section {
   display: none;
 }
 
-.header .h1 {
+.header .navbar .h1 {
  color: var(--green);
   font-size: 2vw;
   margin-bottom: -0.5vw;
