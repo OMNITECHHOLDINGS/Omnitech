@@ -149,7 +149,7 @@ section {
 }
 
 .header .h1 {
- color: #99ff20;
+ color: var(--green);
   font-size: 2vw;
   margin-bottom: -0.5vw;
 }
