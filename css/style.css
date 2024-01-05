@@ -3,7 +3,7 @@
   --yellow:#f5bf23;
   --black:#111;
   --white:#fff;
-  --light-color:#666;
+  --light-color:#5c5353;
   --light-bg:#eee;
   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
   --border:.1rem solid rgba(0,0,0,.3);
@@ -103,12 +103,12 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   z-index: 1000;
-  background: var(--black);
+  background: var(--white);
 }
 
 .header .logo {
   font-size: 2.5rem;
-  color: var(--white);
+  color: var(--black);
   text-transform: capitalize;
 }
 
@@ -118,7 +118,7 @@ section {
 
 .header .navbar a {
   font-size: 2rem;
-  color: var(--white);
+  color: var(--black);
   text-transform: capitalize;
   margin: 0 1rem;
 }
@@ -133,7 +133,7 @@ section {
   line-height: 5rem;
   font-size: 2rem;
   background: var(--light-bg);
-  color: var(--white);
+  color: var(--black);
   cursor: pointer;
   text-align: center;
   margin-left: .3rem;
@@ -148,10 +148,24 @@ section {
   display: none;
 }
 
-.header .navbar .h1 {
- color: var(--green);
-  font-size: 2vw;
-  margin-bottom: -0.5vw;
+.header .search-form {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 70rem;
+  background: var(--white);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  padding: 1rem;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-animation: fadeIn .2s linear;
+          animation: fadeIn .2s linear;
 }
 
 .header .search-form.active {

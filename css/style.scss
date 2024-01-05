@@ -115,7 +115,7 @@ section{
    align-items: center;
    justify-content: space-between;
    z-index: 1000;
-   background:var(--black);
+   background:var(--white);
 
    .logo{
       @include titleText(2.5rem);
@@ -143,8 +143,8 @@ section{
       display: none;
    }
 
-   .h1{
-      color: #99ff20;
+   .search-form{
+      position: absolute;
       top:120%; left:50%;
       transform: translateX(-50%);
       width: 70rem;
@@ -787,7 +787,7 @@ section{
       .navbar{
          position: absolute;
          top:99%; left:0; right:0;
-         background: var(--black);
+         background: var(--white);
          border-top: var(--border);
          border-bottom: var(--border);
          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
